@@ -9,7 +9,7 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "Mohamed-Cheri-AREOUR.png"
+profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
 # --- GENERAL SETTINGS ---
@@ -40,6 +40,14 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
+# --- SIDE BAR ---
+st.sidebar.write(
+    """
+    - ► **Age** : 40 ans
+    - ► **Adresse** : 21, Bâtiment 5F, Cité 1500 logements AADL, Oulad Hadadj, Boumerdes, Algérie
+    - ► **Téléphone** : +213 (0) 555795208
+    """
+)
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
@@ -82,9 +90,9 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Langage de programmation : Python, C 
--    Traitement de données avce Pandas
-- 📊 Data Visulization: Matplotlib, Seaborn, Plotly, Streamlit
+- 🖥️ Langage de programmation : Python, C 
+- 📊 Traitement de données avce Pandas
+- 📈 Data Visulization: Matplotlib, Seaborn, Plotly, Streamlit
 - 📚 Modeling: en utilisant Scikit Leran (Logistic regression, linear regression, decition trees, Clustering) 
 - 🗄️ Databases: Postgres, MongoDB, MySQL
 """
