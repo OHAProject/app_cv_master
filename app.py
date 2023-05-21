@@ -227,7 +227,6 @@ st.write("🏭", "**CHARGER D’AFFAIRE MÉCANIQUE | Michelin Algérie**")
 st.write("2010 - 2012")
 st.write(
     """
-- ► En charge de la conception et le suivi de réalisation de la modernisation des équipements de production au niveau du bureau d’études de là 				
-direction technique à l'usine Micheline Algérie d’Hussein Dey
+- ► En charge de la conception et le suivi de réalisation de la modernisation des équipements de production au niveau du bureau d’études de là direction technique à l'usine Micheline Algérie d’Hussein Dey
 """
 )
