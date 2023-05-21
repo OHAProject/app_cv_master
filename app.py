@@ -20,8 +20,7 @@ DESCRIPTION = """
 Ingénieur de formation ma passion pour les nouvelles technologies ainsi que mes différentes expériences 
 professionnel mon permis d'acquérir une grande expérience dans différents domaines tels que l'internet des objets, 
 l'informatique embarquée et la programmation. l'opérateur mobile Ooredoo et L'AGENCE NATIONALE DE PROMOTION ET DE DEVELOPPEMENT DES PARCS TECHNOLOGIQUES (ANPT)
-m’ont fait confiance pour l'animation de plusieurs formations dans les domaines de la programmation avec Python,
-la data sciences,le prototypage rapide de solutions connecté et l'informatique embarqué.
+m’ont fait confiance pour l'animation de plusieurs formations.
 """
 EMAIL = "areour.mohamed@gmail.com"
 SOCIAL_MEDIA = {
@@ -71,7 +70,7 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 13 ans d'expérience profesionnel dans diférant domaines (industrie, recherche, entreprenariat
+- ✔️ 14 ans d'expérience profesionnel dans diférant domaines (industrie, recherche, entreprenariat
 - ✔️ Une experiance de plus de 20 ans avec le langage de programation Python (dans un cadre acadimique ou bien professionel)
 - ✔️ Une experiance de plus de 8 ans en formation et animation de cours dans différent domaine de techniques
 """
