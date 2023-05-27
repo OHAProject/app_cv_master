@@ -18,7 +18,7 @@ PAGE_ICON = "⚛️"
 NAME = "Areour Mohamed Cherif"
 DESCRIPTION = """
 Ingénieur de formation ma passion pour les nouvelles technologies ainsi que mes différentes expériences 
-professionnel m'ont permis d'acquérir une grande expérience dans différents domaines tels que l'internet des objets, 
+professionnelles m'ont permis d'acquérir une grande expérience dans différents domaines tels que l'internet des objets, 
 l'informatique embarquée et la programmation. l'opérateur mobile Ooredoo et L'AGENCE NATIONALE DE PROMOTION ET DE DEVELOPPEMENT DES PARCS TECHNOLOGIQUES (ANPT)
 m’ont fait confiance pour l'animation de plusieurs formations.
 """
